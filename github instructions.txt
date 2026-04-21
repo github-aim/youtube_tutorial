@@ -1,0 +1,31 @@
+initialy 
+cd your_project_folder
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/your-username/your-repo.git
+git push -u origin main
+
+git pull
+# do work
+git add .
+git commit -m "what you changed"
+git push
+
+
+Before you start work on either machine
+git pull
+
+After you make progress
+git add .
+git commit -m "describe what changed"
+git push
+
+then on the other machine 
+git pull
+
+cd ~/Documents
+git clone https://github.com/github-aim/youtube_tutorial.git
+cd youtube_tutorial
+git pull
+
